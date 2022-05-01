@@ -1,20 +1,20 @@
-# python标准库——string
+## 1 python标准库——string
 
-## 1.1 字符串操作详解
-1. 字符串操作，是程序开发中最常用，最重要的操作之一
-2. 涉及的内容：字符串查找/替换/截取/连接
+### 1.1 创建字符串
 
 ```python
 var1 = 'Hello World'
-var2 = 'Runoob'
-print('var1[0]') ---> H
-print('var2[:5]') ---> Hello
-print('[1:5]') ---> ello
+var2 = "Python Runoob"
+var3 = """Hello World"""
 ```
 
-## 1.2 字符串中常用的方法
+### 1.2 访问字符串中的值
 
 ```python
-
-
+print(var1) ---> Hello World
+print(var1[0]) ---> H
+print(var[:5]) ---> Hello
+print(var1[1:5]) ---> ello
 ```
+
+### 1.3 
