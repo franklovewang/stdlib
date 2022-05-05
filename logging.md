@@ -2,11 +2,18 @@
 
 ### 1.1 日志处理方式
 
-![](../../Typora_images/85.png)
+- Java：System.out.printIn()/log4j
+- Python：print()/logging
 
 ### 1.2 logging库日志级别
 
-![](../../Typora_images/86.png)
+|级别|级别数值|使用时机|
+|---|---|---|
+|DEBUG|10|详细信息，常用于调试|
+|INFO|20|程序正常运行过程中产生的一些信息|
+|WARNING|30|警告用户，虽然程序还在正常工作，但有可能发生错误|
+|ERROR|40|由于更严重的问题，程序已不能执行一些功能了|
+|CRITICAL|50|严重错误，程序已不能继续运行|
 
 默认日志级别是warning
 
